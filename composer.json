@@ -1,0 +1,21 @@
+{
+    "name": "clinicsys/app",
+    "description": "Clinic System App",
+    "type": "project",
+    "require": {
+        "clinicsys/core": "dev-main"
+    },
+    "license": "GPL3.0",
+    "autoload": {
+        "psr-4": {
+            "Clinicsys\\App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "khaledfathi",
+            "email": "khaledfathi@protonmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
